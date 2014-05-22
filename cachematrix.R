@@ -30,7 +30,7 @@ makeCacheMatrix <- function(x = matrix())
         }
 
         # get(), Get matrix data.
-        get <- function() matrixData
+        get <- function() x
 
         # setInverse(inverse), Internal function. Set the cached inverse 
         # of matrix by solve function.
